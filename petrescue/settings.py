@@ -143,6 +143,7 @@ USE_TZ = True  # Enable timezone support
 # Configuration for serving static assets like CSS, JS, and images
 
 STATIC_URL = 'static/'  # URL prefix for static files
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',  # Directory containing static files
